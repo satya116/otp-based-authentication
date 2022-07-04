@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* background only */
+  --primary-background-color: rgb(255, 255, 255);
+  --secondary-background-color: rgb(255, 255, 255);
+
+  /* Theme color */
+  --primary-theme-color: rgb(234, 0, 255);
+  --secondary-theme-color: rgb(98, 4, 161);
+  --tertiary-theme-color: rgb(177, 230, 248);
+  --pure: rgb(255, 255, 255);
+}
+
+.cs_container {
+  width: 1152px;
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: var(--secondary-background-color);
+}
+
